@@ -12,7 +12,14 @@ First, you must create environment.ts and environment.ts in src/environments lik
     {
       urls: 'your stun server url',
     }
-  // or
+  ] as RTCIceServer[],
+```
+
+or if you want to stick with turn server,
+
+``` json
+  socketUrl: 'your socket url',
+  iceServers: [
     {
       urls: 'your turn server url',
       username: 'your username',
