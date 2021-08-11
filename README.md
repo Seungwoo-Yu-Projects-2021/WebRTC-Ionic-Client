@@ -4,7 +4,7 @@
 
 ## Installation
 
-First, you must create environment.ts and environment.ts in src/environments like below.
+First, you must create environment.ts and environment.prod.ts in src/environments like below.
 
 ``` ts
   socketUrl: 'your socket url',
