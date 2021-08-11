@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="true">fndservertest.iptime.org</domain>
+        <domain includeSubdomains="true">mymativ.com</domain>
+        <domain includeSubdomains="true">mativ-resource-bucket-1.s3.ap-northeast-2.amazonaws.com</domain>
+        <domain includeSubdomains="true">mativ-ugc-bucket-1.s3.ap-northeast-2.amazonaws.com</domain>
+    </domain-config>
+</network-security-config>

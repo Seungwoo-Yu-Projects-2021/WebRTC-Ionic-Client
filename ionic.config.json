@@ -1,0 +1,7 @@
+{
+  "name": "webrtc-ionic-client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

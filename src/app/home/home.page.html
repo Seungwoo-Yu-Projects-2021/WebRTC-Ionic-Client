@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <video autoplay #localVideo></video>
+    <video *ngFor="let data of targetUserStreamDataMap | keyvalue" autoplay #remoteVideo [srcObject]="data.value"></video>
+  </div>
+</ion-content>
