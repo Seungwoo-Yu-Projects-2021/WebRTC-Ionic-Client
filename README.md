@@ -6,7 +6,7 @@
 
 First, you must create environment.ts and environment.ts in src/environments like below.
 
-``` json
+``` ts
   socketUrl: 'your socket url',
   iceServers: [
     {
@@ -17,7 +17,7 @@ First, you must create environment.ts and environment.ts in src/environments lik
 
 or if you want to stick with turn server,
 
-``` json
+``` ts
   socketUrl: 'your socket url',
   iceServers: [
     {
